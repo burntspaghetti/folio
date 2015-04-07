@@ -42,7 +42,7 @@
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-                <i class="fa fa-play-circle"></i>  <span class="light">Nick</span> Bertanzetti
+                <i class="fa fa-globe"></i>  <span class="light">Nick</span> Bertanzetti
             </a>
         </div>
 
@@ -56,12 +56,12 @@
                 <li>
                     <a class="page-scroll" href="#home">Home</a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="#about">Info</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#education">Education</a>
-                </li>
+                {{--<li>--}}
+                    {{--<a class="page-scroll" href="#about">Info</a>--}}
+                {{--</li>--}}
+                {{--<li>--}}
+                    {{--<a class="page-scroll" href="#education">Education</a>--}}
+                {{--</li>--}}
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
                 </li>
@@ -78,18 +78,20 @@
 </nav>
 
 <!-- Intro Header -->
-<header class="intro" style="background: url(images/earth.jpg)">
+{{--<header class="intro" style="background: url(images/earth.jpg); background-size:cover; background-repeat:no-repeat;">--}}
+<header class="intro" style="background: url(images/earth4.jpg) no-repeat; background-size:cover;">
     <section id="home" class="container content-section text-center">
     <div class="intro-body">
         <div class="container">
             <div class="row">
-                <div>
-                    <h1>Better, Faster, Cheaper</h1>
 
-                    <p class="intro-text">Web Development</p>
+                    <h1>Better, Faster, Cheaper.</h1>
+                    <p>Automation and Web Development</p>
                     <a href="#about" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
+                <div style="margin-bottom: 15cm;">
+
                 </div>
             </div>
         </div>
@@ -101,43 +103,53 @@
 <section id="about" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-            <h2>Info</h2>
-            <p>2+ years experience creating value through software development and technical consulting services for clients such as:</p>
-            <p><a href="http://www.protective.com/">Protective Life Insurance</a></p>
-            <p><a href="http://www.randallreilly.com/">Randall-Reilly</a></p>
-            <p><a href="https://www.ua.edu/">The University of Alabama</a></p>
-            <p>Open to freelance and pro bono opportunities.</p>
+            <h2></h2>
+            <p>
+                "We are on our ever swifter way to becoming an omni-integrated, majorly literate, unified Spaceship Earth society. The new human networks' emergence represents the natural evolutionary expansion into the just completed, thirty-years-in-its-buildings world-embracing, physical communications network. The new reorienting of human networking constitutes the heart-and-mind-pumped flow of life and intellect into the world arteries."
+            </p>
+            <p>-Buckminster Fuller, Critical Path, 1981</p>
+            {{--<p>2+ years experience creating value through software development and technical consulting services for clients such as:</p>--}}
+            {{--<p><a href="http://www.protective.com/">Protective Life Insurance</a></p>--}}
+            {{--<p><a href="http://www.randallreilly.com/">Randall-Reilly</a></p>--}}
+            {{--<p><a href="https://www.ua.edu/">The University of Alabama</a></p>--}}
+            {{--<p>Open to freelance and pro bono opportunities.</p>--}}
         </div>
     </div>
+    <a href="#education" class="btn btn-circle page-scroll">
+        <i class="fa fa-angle-double-down animated"></i>
+    </a>
 </section>
 
-<section id="education" class="container content-section text-center">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-            <h2>Education</h2>
-            <p>B.S. from one of the <a href="http://uanews.ua.edu/2013/07/ua-mis-program-ranked-fourth-among-public-institutions/">top ranked MIS programs</a></p>
-            <p>Coursework:</p>
-            <p>
-                Business Analysis & Project Management: Team-based intro to SDLC
-                <br>
-                Business Programming: [C++] + [Visual Studios 2010]
-                <br>
-                Business Programming II: [C#] + [Visual Studios 2010]
-                <br>
-                Application Architecture and Design: <a>[</a>C#<a>]</a> <a>+</a> <a>[</a>ASP.NET MVC4<a>]</a> <a>+</a> <a>[</a>Visual Studios 2012<a>]</a>
-                <br>
-                Database Administration: <a>[</a>SQL<a>]</a> <a>+</a> <a>[</a>Microsoft SQL Server 2012<a>]</a>
-                <br>
-                Data Communications in Global Environment: Networking, security, and internet infrastructure
-                <br>
+{{--<section id="education" class="container content-section text-center">--}}
+    {{--<div class="row">--}}
+        {{--<div class="col-lg-8 col-lg-offset-2">--}}
+            {{--<h2>Education</h2>--}}
+            {{--<p>B.S. from one of the <a href="http://uanews.ua.edu/2013/07/ua-mis-program-ranked-fourth-among-public-institutions/">top ranked MIS programs</a></p>--}}
+            {{--<p>Coursework:</p>--}}
+            {{--<p>--}}
+                {{--Business Analysis & Project Management: Team-based intro to SDLC--}}
+                {{--<br>--}}
+                {{--Business Programming: [C++] + [Visual Studios 2010]--}}
+                {{--<br>--}}
+                {{--Business Programming II: [C#] + [Visual Studios 2010]--}}
+                {{--<br>--}}
+                {{--Application Architecture and Design: <a>[</a>C#<a>]</a> <a>+</a> <a>[</a>ASP.NET MVC4<a>]</a> <a>+</a> <a>[</a>Visual Studios 2012<a>]</a>--}}
+                {{--<br>--}}
+                {{--Database Administration: <a>[</a>SQL<a>]</a> <a>+</a> <a>[</a>Microsoft SQL Server 2012<a>]</a>--}}
+                {{--<br>--}}
+                {{--Data Communications in Global Environment: Networking, security, and internet infrastructure--}}
+                {{--<br>--}}
 
-            </p>
-            <p>
-                (Tambi&eacute;n tengo un t&iacute;tulo en espa&ntilde;ol)
-            </p>
-        </div>
-    </div>
-</section>
+            {{--</p>--}}
+            {{--<p>--}}
+                {{--(Tambi&eacute;n tengo un t&iacute;tulo en espa&ntilde;ol)--}}
+            {{--</p>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+    {{--<a href="#contact" class="btn btn-circle page-scroll">--}}
+        {{--<i class="fa fa-angle-double-down animated"></i>--}}
+    {{--</a>--}}
+{{--</section>--}}
 
 <!-- Contact Section -->
 <section id="contact" class="container content-section text-center">
@@ -155,20 +167,6 @@
                     <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name"></span></a>
                 </li>
             </ul>
-        </div>
-    </div>
-</section>
-
-
-<!-- Download Section -->
-<section id="download" class="content-section text-center">
-    <div class="download-section">
-        <div class="container">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Lorem Ipsum</h2>
-                <p></p>
-                {{--<a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>--}}
-            </div>
         </div>
     </div>
 </section>

@@ -127,7 +127,7 @@ a:focus {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-        background: 0 0;
+        /*background: 0 0;*/
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -143,11 +143,11 @@ a:focus {
 .intro {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(startbootstrap-grayscale-1.0.3/img/intro-bg.jpg) no-repeat bottom center scroll;
+    /*background: url(startbootstrap-grayscale-1.0.3/img/intro-bg.jpg) no-repeat bottom center scroll;*/
     /*background-color: #000;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -223,7 +223,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -240,7 +240,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -265,7 +265,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/internet-of-things-2.jpg);
+    /*background: url(images/earth.jpg);*/
     background-color: #000;
     background-size: auto 756px;
     /*-webkit-background-size: cover;*/

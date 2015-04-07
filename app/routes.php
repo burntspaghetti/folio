@@ -30,6 +30,8 @@ Route::get('/test2', function()
 	return View::make('test2');
 });
 
+
+Route::get('/testing', 'HomeController@testing');
 Route::get('/test3', function()
 {
 	return View::make('test3');
