@@ -30,4 +30,9 @@ class HomeController extends BaseController {
 		return View::make('test4');
 	}
 
+	public function form()
+	{
+		dd(Input::all());
+	}
+
 }

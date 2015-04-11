@@ -90,9 +90,6 @@
                     <a href="#about" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
-                <div style="margin-bottom: 15cm;">
-
-                </div>
             </div>
         </div>
     </div>
@@ -115,7 +112,7 @@
             {{--<p>Open to freelance and pro bono opportunities.</p>--}}
         </div>
     </div>
-    <a href="#education" class="btn btn-circle page-scroll">
+    <a href="#contact" class="btn btn-circle page-scroll">
         <i class="fa fa-angle-double-down animated"></i>
     </a>
 </section>
@@ -157,7 +154,7 @@
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Contact</h2>
             <p>What can we do together?</p>
-            <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+            <p><a href="mailto:nsbertanzetti@gmail.com">nsbertanzetti@gmail.com</a>
             </p>
             <ul class="list-inline banner-social-buttons">
                 <li>
@@ -167,6 +164,18 @@
                     <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name"></span></a>
                 </li>
             </ul>
+            {{ Form::open(array('action' => 'HomeController@form', 'class' => 'clearfix', 'style' => 'padding:1em 3em;')) }}
+
+
+            <div class="form-group">
+                <label for="contactForm">Say Hello:</label>
+
+                <textarea style="border: 1px solid #42dca3; background: #333; color:#42dca3" class="form-control" id="contactForm" rows="3"></textarea>
+            </div>
+            <button class="btn btn-default" type="submit">Submit</button>
+
+
+            {{ Form::close() }}
         </div>
     </div>
 </section>
@@ -179,7 +188,7 @@
 <!-- Footer -->
 <footer>
     <div class="container text-center">
-        <p>Copyright &copy; Your Website 2014</p>
+        <p>Footer?</p>
     </div>
 </footer>
 

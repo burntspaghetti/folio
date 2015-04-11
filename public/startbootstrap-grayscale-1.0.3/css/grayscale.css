@@ -147,7 +147,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    /*background: url(startbootstrap-grayscale-1.0.3/img/intro-bg.jpg) no-repeat bottom center scroll;*/
+    /*style="background: url(images/earth4.jpg) no-repeat; background-size:cover;"*/
+    /*background: url(images/earth4.jpg) no-repeat bottom center scroll;*/
     /*background-color: #000;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;

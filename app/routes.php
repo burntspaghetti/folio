@@ -30,12 +30,17 @@ Route::get('/test2', function()
 	return View::make('test2');
 });
 
-
+Route::get('/test22', function()
+{
+	return View::make('test22');
+});
 Route::get('/testing', 'HomeController@testing');
 Route::get('/test3', function()
 {
 	return View::make('test3');
 });
+
+Route::get('/contactForm', 'HomeController@form');
 
 //clean blog
 //Route::get('/test4', function()
