@@ -89,7 +89,7 @@
     <section id="home" class="container content-section text-center">
     <div class="intro-body">
         <div class="container">
-            <div class="row">
+            <div class="row" align="center">
 
                     <h1>Better, Faster, Cheaper.</h1>
                     <p>Automation and Full Stack Web Development</p>

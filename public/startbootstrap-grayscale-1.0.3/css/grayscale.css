@@ -44,6 +44,8 @@ p {
     }
 }
 
+
+
 a {
     color: #42dca3;
     -webkit-transition: all .2s ease-in-out;
@@ -300,6 +302,12 @@ a:focus {
         height: 400px;
         margin-top: 250px;
     }
+}
+
+@media only screen and (max-width: 720px) and (orientation: portrait) {
+    .intro{
+        padding-left: 3%;
+        background: red;}
 }
 
 .btn {
