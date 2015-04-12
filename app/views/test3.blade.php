@@ -267,7 +267,8 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Contact</h2>
-            <p>Open to freelance and pro bono projects.</p>
+            <h2><i class="fa fa-envelope-o"></i></h2>
+            <p>Let's team up.</p>
             <p>What can we do together?</p>
             <p><a href="mailto:nsbertanzetti@gmail.com">nsbertanzetti@gmail.com</a>
             </p>

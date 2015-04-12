@@ -11,14 +11,14 @@
 |
 */
 
-Route::get('/', function()
-{
-//	$image = Image::make(public_path() . '/images/mtn.jpg')->response('jpg');
-//	return $image;
-
-
-	return View::make('home', compact('image'));
-});
+//Route::get('/', function()
+//{
+////	$image = Image::make(public_path() . '/images/mtn.jpg')->response('jpg');
+////	return $image;
+//
+//
+//	return View::make('home', compact('image'));
+//});
 
 Route::get('/test', function()
 {
@@ -35,7 +35,7 @@ Route::get('/test22', function()
 	return View::make('test22');
 });
 Route::get('/testing', 'HomeController@testing');
-Route::get('/test3', function()
+Route::get('/home', function()
 {
 	return View::make('test3');
 });
