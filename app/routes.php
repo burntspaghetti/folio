@@ -41,6 +41,10 @@ Route::get('/test3', function()
 });
 
 Route::get('/contactForm', 'HomeController@form');
+Route::get('/testingtesting', function()
+{
+	dd('ello');
+});
 
 //clean blog
 //Route::get('/test4', function()

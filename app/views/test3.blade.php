@@ -57,7 +57,7 @@
                     <a class="page-scroll" href="#home">Home</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#skills">Skills</a>
+                    <a class="page-scroll" href="#technologies">Tech</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#projects">Projects</a>
@@ -92,7 +92,10 @@
             <div class="row" align="center">
 
                     <h1>Better, Faster, Cheaper.</h1>
-                    <p>Automation and Full Stack Web Development</p>
+                    <p>Automation and Full Stack Web Development </p>
+                <p><i class="fa fa-linux" data-toggle="tooltip" data-placement="top" rel="tooltip" title="Yes, I am a space penguin." id="blah"></i></p>
+
+
                     <a href="#about" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
@@ -113,21 +116,15 @@
             <p>-Buckminster Fuller, <a href="http://en.wikipedia.org/wiki/Critical_Path_%28book%29" target="_blank">Critical Path</a>, 1981</p>
         </div>
     </div>
-    <a href="#skills" class="btn btn-circle page-scroll">
+    <a href="#technologies" class="btn btn-circle page-scroll">
         <i class="fa fa-angle-double-down animated"></i>
     </a>
 </section>
 
-<!-- About Section -->
+
 <section id="earth" class="container content-section text-center">
     <div class="row" style="background: url(images/earth.jpg) center center; background-size: auto 100%; padding-bottom: 100%;">
         <div class="col-lg-8 col-lg-offset-2">
-
-
-
-
-
-
 
         </div>
     </div>
@@ -135,10 +132,12 @@
 
 
 
-<section id="skills" class="container content-section text-center">
+<section id="technologies" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-            <h2>Skills</h2>
+            <h2>Tech</h2>
+
+            <h1><i class="fa fa-keyboard-o"></i></h1>
 
             <p>
                 <b>Languages: </b>PHP, SQL, JavaScript, HTML, CSS, C#*, C++*
@@ -172,11 +171,23 @@
     </a>
 </section>
 
+{{--<section id="tech" class="container content-section text-center">--}}
+    {{--<div class="row" style="background: url(images/trim-technology.jpg) no-repeat center center; background-size: 100% auto; padding-bottom: 100%;">--}}
+        {{--<div class="col-lg-8 col-lg-offset-2">--}}
+
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</section>--}}
+
 <section id="projects" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Projects</h2>
+            <h2><i class="fa fa-folder-open-o"></i></h2>
+
+            <h1 class="page-header"></h1>
             <h4>Immunization Automation</h4>
+            <h2><i class="fa fa-heartbeat"></i></h2>
             <p>
                 <b>Client: The University of Alabama Student Health Center</b>
                 <br>
@@ -184,17 +195,22 @@
                 <br>
                 Designed, developed, tested, and deployed mobile friendly web solution to automate student immunization record collection and verification process, eliminating 78,000+ hours of aggregate process completion time per year.
             </p>
+            <h1 class="page-header"></h1>
             <br>
+
             <h4>Admissions Algorithms</h4>
+            <h2><i class="fa fa-calculator"></i></h2>
             <p>
                 <b>Client: The University of Alabama College of Nursing</b>
                 <br>
                 2015
                 <br>
-                Developed and maintained ranking algorithms to automate college admissions processes.
+                Developed and maintained ranking algorithms to automate college admissions process.
             </p>
+            <h1 class="page-header"></h1>
             <br>
             <h4>Authorization Web Service</h4>
+            <h2><i class="fa fa-lock"></i></h2>
             <p>
                 <b>Client: Philo TV, The University of Alabama</b>
                 <br>
@@ -202,8 +218,10 @@
                 <br>
                 Developed encrypted authorization and authentication web service to protect student information while enabling delivery of third party media services.
             </p>
+            <h1 class="page-header"></h1>
             <br>
             <h4>Software Market Analysis</h4>
+            <h2><i class="fa fa-line-chart"></i></h2>
             <p>
                 <b>Client: University of Alabama Career Center</b>
                 <br>
@@ -211,24 +229,29 @@
                 <br>
                 Analyzed current state of e-recruiting systems and developed software recommendation based on market research, stakeholder requirements, and vendor demos.
             </p>
+            <h1 class="page-header"></h1>
             <br>
             <h4>Report Composer</h4>
+            <h2><i class="fa fa-bar-chart"></i></h2>
             <p>
                 <b>Client: Randall-Reilly</b>
                 <br>
                 2013
                 <br>
-                Designed and developed report customization tool which helped to improve customer service efficiency by cutting total process completion time of up to 2 weeks down to minutes.
+                Designed and developed Google Analytics report customization tool which helped to improve customer service efficiency by cutting total process completion time of up to 2 weeks down to minutes.
             </p>
+            <h1 class="page-header"></h1>
                 <br>
             <h4>BPI Analysis</h4>
+            <h2><i class="fa fa-random"></i></h2>
             <p>
                 <b>Client: Protective Life Insurance Company</b>
                 <br>
                 2013
                 <br>
-                Documented and analyzed current state process workflows for claims process and legacy systems, identifying pain points and manual processes to be automated in the future state.
+                Mapped and analyzed current state workflows for legacy claims systems, identifying pain points and manual processes to be automated in the future state.
             </p>
+            <h1 class="page-header"></h1>
                 <br>
         </div>
     </div>
@@ -237,12 +260,14 @@
     </a>
 </section>
 
+
+
 <!-- Contact Section -->
 <section id="contact" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Contact</h2>
-            <p>Open to freelance and pro bono opportunities.</p>
+            <p>Open to freelance and pro bono projects.</p>
             <p>What can we do together?</p>
             <p><a href="mailto:nsbertanzetti@gmail.com">nsbertanzetti@gmail.com</a>
             </p>
@@ -283,7 +308,8 @@
 <footer>
     <div class="container text-center">
         <p></p>
-        Don't worry be happy
+        Don't worry, be happy
+        <i class="fa fa-smile-o"></i>
     </div>
 </footer>
 
