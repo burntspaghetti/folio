@@ -163,7 +163,7 @@
             <p>
                 <b>Methodologies: </b>Agile Scrum, Waterfall
             </p>
-            * Technologies used in <a href="http://uanews.ua.edu/2013/07/ua-mis-program-ranked-fourth-among-public-institutions/">university MIS projects </a>
+            * Technologies used in <a href="http://uanews.ua.edu/2013/07/ua-mis-program-ranked-fourth-among-public-institutions/" target="_blank">university MIS projects </a>
         </div>
     </div>
     <a href="#projects" class="btn btn-circle page-scroll">
