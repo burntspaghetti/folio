@@ -56,6 +56,12 @@
                 <li>
                     <a class="page-scroll" href="#home">Home</a>
                 </li>
+                <li>
+                    <a class="page-scroll" href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#projects">Projects</a>
+                </li>
                 {{--<li>--}}
                     {{--<a class="page-scroll" href="#about">Info</a>--}}
                 {{--</li>--}}
@@ -86,7 +92,7 @@
             <div class="row">
 
                     <h1>Better, Faster, Cheaper.</h1>
-                    <p>Automation and Web Development</p>
+                    <p>Automation and Full Stack Web Development</p>
                     <a href="#about" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
@@ -112,41 +118,59 @@
             {{--<p>Open to freelance and pro bono opportunities.</p>--}}
         </div>
     </div>
-    <a href="#contact" class="btn btn-circle page-scroll">
+    <a href="#skills" class="btn btn-circle page-scroll">
         <i class="fa fa-angle-double-down animated"></i>
     </a>
 </section>
 
-{{--<section id="education" class="container content-section text-center">--}}
-    {{--<div class="row">--}}
-        {{--<div class="col-lg-8 col-lg-offset-2">--}}
-            {{--<h2>Education</h2>--}}
-            {{--<p>B.S. from one of the <a href="http://uanews.ua.edu/2013/07/ua-mis-program-ranked-fourth-among-public-institutions/">top ranked MIS programs</a></p>--}}
-            {{--<p>Coursework:</p>--}}
-            {{--<p>--}}
-                {{--Business Analysis & Project Management: Team-based intro to SDLC--}}
-                {{--<br>--}}
-                {{--Business Programming: [C++] + [Visual Studios 2010]--}}
-                {{--<br>--}}
-                {{--Business Programming II: [C#] + [Visual Studios 2010]--}}
-                {{--<br>--}}
-                {{--Application Architecture and Design: <a>[</a>C#<a>]</a> <a>+</a> <a>[</a>ASP.NET MVC4<a>]</a> <a>+</a> <a>[</a>Visual Studios 2012<a>]</a>--}}
-                {{--<br>--}}
-                {{--Database Administration: <a>[</a>SQL<a>]</a> <a>+</a> <a>[</a>Microsoft SQL Server 2012<a>]</a>--}}
-                {{--<br>--}}
-                {{--Data Communications in Global Environment: Networking, security, and internet infrastructure--}}
-                {{--<br>--}}
+<section id="skills" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Skills</h2>
 
-            {{--</p>--}}
-            {{--<p>--}}
-                {{--(Tambi&eacute;n tengo un t&iacute;tulo en espa&ntilde;ol)--}}
-            {{--</p>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-    {{--<a href="#contact" class="btn btn-circle page-scroll">--}}
-        {{--<i class="fa fa-angle-double-down animated"></i>--}}
-    {{--</a>--}}
-{{--</section>--}}
+            <p>
+                <b>Languages: </b>PHP, SQL, JavaScript, HTML, CSS, C#*, C++*
+            </p>
+            <p>
+                <b>Frameworks: </b>Laravel, jQuery, Bootstrap, ASP.NET MVC4*
+            </p>
+            <p>
+                <b>Databases: </b>Oracle, MySQL, Microsoft SSMS 2010/2012*
+            </p>
+            <p>
+                <b>Servers: </b>Apache, Nginx
+            </p>
+            <p>
+                <b>OS: </b>Linux (Ubuntu, OpenSUSE), Microsoft 7/8
+            </p>
+            <p>
+                <b>IDE: </b>PHP Storm, Visual Studios 2010/2012*
+            </p>
+            <p>
+                <b>Tools: </b>Git, JIRA, Vagrant, Bower, Composer, Sublime Text
+            </p>
+            <p>
+                <b>Methodologies: </b>Agile Scrum, Waterfall
+            </p>
+            * Technologies used in <a href="http://uanews.ua.edu/2013/07/ua-mis-program-ranked-fourth-among-public-institutions/">university MIS projects </a>
+        </div>
+    </div>
+    <a href="#projects" class="btn btn-circle page-scroll">
+        <i class="fa fa-angle-double-down animated"></i>
+    </a>
+</section>
+
+<section id="projects" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Projects</h2>
+
+        </div>
+    </div>
+    <a href="#contact" class="btn btn-circle page-scroll">
+        <i class="fa fa-angle-double-down animated"></i>
+    </a>
+</section>
 
 <!-- Contact Section -->
 <section id="contact" class="container content-section text-center">
@@ -158,11 +182,15 @@
             </p>
             <ul class="list-inline banner-social-buttons">
                 <li>
-                    <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name"></span></a>
+                    <a href="https://www.linkedin.com/pub/nick-bertanzetti/47/574/277" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name"></span></a>
                 </li>
                 <li>
-                    <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name"></span></a>
+                    <a href="https://github.com/burntspaghetti" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name"></span></a>
                 </li>
+                <li>
+                    <a href="http://stackoverflow.com/users/3895839/thesingularity" class="btn btn-default btn-lg"><i class="fa fa-stack-overflow"></i> <span class="network-name"></span></a>
+                </li>
+
             </ul>
             {{ Form::open(array('action' => 'HomeController@form', 'class' => 'clearfix', 'style' => 'padding:1em 3em;')) }}
 
