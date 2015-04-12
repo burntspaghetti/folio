@@ -248,13 +248,13 @@
             </p>
             <ul class="list-inline banner-social-buttons">
                 <li>
-                    <a href="https://www.linkedin.com/pub/nick-bertanzetti/47/574/277" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name"></span></a>
+                    <a href="https://www.linkedin.com/pub/nick-bertanzetti/47/574/277" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name"></span></a>
                 </li>
                 <li>
-                    <a href="https://github.com/burntspaghetti" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name"></span></a>
+                    <a href="https://github.com/burntspaghetti" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name"></span></a>
                 </li>
                 <li>
-                    <a href="http://stackoverflow.com/users/3895839/thesingularity" class="btn btn-default btn-lg"><i class="fa fa-stack-overflow"></i> <span class="network-name"></span></a>
+                    <a href="http://stackoverflow.com/users/3895839/thesingularity" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-stack-overflow"></i> <span class="network-name"></span></a>
                 </li>
 
             </ul>
