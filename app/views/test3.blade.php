@@ -85,7 +85,7 @@
 
 <!-- Intro Header -->
 {{--<header class="intro" style="background: url(images/earth.jpg); background-size:cover; background-repeat:no-repeat;">--}}
-<header class="intro" style="background: url(images/earth4.jpg) no-repeat; background-size:cover;">
+<header class="intro" style="background: url(images/aurora.jpg) no-repeat; background-size:cover;">
     <section id="home" class="container content-section text-center">
     <div class="intro-body">
         <div class="container">
@@ -123,31 +123,48 @@
     </a>
 </section>
 
+<!-- About Section -->
+<section id="earth" class="container content-section text-center">
+    <div class="row" style="background: url(images/earth.jpg) no-repeat center center scroll; padding-bottom: 100%;">
+        <div class="col-lg-8 col-lg-offset-2">
+
+
+
+
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
 <section id="skills" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Skills</h2>
 
             <p>
-                <b><i class="fa fa-language"></i> Languages: </b>PHP, SQL, JavaScript, HTML, CSS, C#*, C++*
+                <b>Languages: </b>PHP, SQL, JavaScript, HTML, CSS, C#*, C++*
             </p>
             <p>
                 <b>Frameworks: </b>Laravel, jQuery, Bootstrap, ASP.NET MVC4*
             </p>
             <p>
-                <b><i class="fa fa-database"></i> Databases: </b>Oracle, MySQL, Microsoft SSMS 2010/2012*
+                <b>Databases: </b>Oracle, MySQL, Microsoft SSMS 2010/2012*
             </p>
             <p>
                 <b>Servers: </b>Apache, Nginx
             </p>
             <p>
-                <b><i class="fa fa-laptop"></i> OS: </b>Linux (Ubuntu, OpenSUSE), Microsoft 7/8
+                <b>OS: </b>Linux (Ubuntu, OpenSUSE), Microsoft 7/8
             </p>
             <p>
-                <b><span class="glyphicon glyphicon-console" aria-hidden="true"></span> IDE: </b>PHP Storm, Visual Studios 2010/2012*
+                <b>IDE: </b>PHP Storm, Visual Studios 2010/2012*
             </p>
             <p>
-                <b><i class="fa fa-wrench"></i> Tools: </b>Git, JIRA, Vagrant, Bower, Composer, Sublime Text
+                <b>Tools: </b>Git, JIRA, Vagrant, Bower, Composer, Sublime Text
             </p>
             <p>
                 <b>Methodologies: </b>Agile Scrum, Waterfall
@@ -164,37 +181,11 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Projects</h2>
-            <h4>Report Composer</h4>
-            <p>
-                <b>Client: Randall-Reilly</b>
-                <br>
-                Designed and developed report customization tool which helped to improve customer service efficiency by cutting total process completion time of up to 2 weeks down to minutes.
-            </p>
-                <br>
-            <h4>BPI Analysis</h4>
-            <p>
-                <b>Client: Protective Life Insurance Company</b>
-                <br>
-                Documented and analyzed current state process workflows for claims process and legacy systems, identifying pain points and manual processes to be automated in the future state.
-            </p>
-                <br>
-            <h4>Software Market Analysis</h4>
-            <p>
-                <b>Client: University of Alabama Career Center</b>
-                <br>
-                Analyzed current state of e-recruiting systems and developed software recommendation based on market research, stakeholder requirements, and vendor demos
-            </p>
-                <br>
-            <h4>Authorization Web Service</h4>
-            <p>
-                <b>Client: Philo TV, The University of Alabama</b>
-                <br>
-                Developed encrypted authorization and authentication web service to protect student information while enabling delivery of third party media services
-            </p>
-            <br>
             <h4>Immunization Automation</h4>
             <p>
                 <b>Client: The University of Alabama Student Health Center</b>
+                <br>
+                2015
                 <br>
                 Design, developed, tested, and deployed mobile friendly web solution to automate student immunization record collection and verification process, eliminating 78,000+ hours of aggregate process completion time per year
             </p>
@@ -203,9 +194,49 @@
             <p>
                 <b>Client: The University of Alabama College of Nursing</b>
                 <br>
+                2015
+                <br>
                 Developed and maintained ranking algorithms to automate college admissions processes
             </p>
             <br>
+            <h4>Authorization Web Service</h4>
+            <p>
+                <b>Client: Philo TV, The University of Alabama</b>
+                <br>
+                2014
+                <br>
+                Developed encrypted authorization and authentication web service to protect student information while enabling delivery of third party media services
+            </p>
+            <br>
+            <h4>Software Market Analysis</h4>
+            <p>
+                <b>Client: University of Alabama Career Center</b>
+                <br>
+                2014
+                <br>
+                Analyzed current state of e-recruiting systems and developed software recommendation based on market research, stakeholder requirements, and vendor demos
+            </p>
+            <br>
+            <h4>Report Composer</h4>
+            <p>
+                <b>Client: Randall-Reilly</b>
+                <br>
+                2013
+                <br>
+                Designed and developed report customization tool which helped to improve customer service efficiency by cutting total process completion time of up to 2 weeks down to minutes.
+            </p>
+                <br>
+            <h4>BPI Analysis</h4>
+            <p>
+                <b>Client: Protective Life Insurance Company</b>
+                <br>
+                2013
+                <br>
+                Documented and analyzed current state process workflows for claims process and legacy systems, identifying pain points and manual processes to be automated in the future state.
+            </p>
+                <br>
+
+
 
         </div>
     </div>
@@ -219,7 +250,7 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Contact</h2>
-            <p>Open to freelance and probono opportunities.</p>
+            <p>Open to freelance and pro bono opportunities.</p>
             <p>What can we do together?</p>
             <p><a href="mailto:nsbertanzetti@gmail.com">nsbertanzetti@gmail.com</a>
             </p>
@@ -260,7 +291,7 @@
 <footer>
     <div class="container text-center">
         <p></p>
-        Don't worry. Be Happy
+        Don't worry be happy
     </div>
 </footer>
 
