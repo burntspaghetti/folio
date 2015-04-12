@@ -85,7 +85,7 @@
 
 <!-- Intro Header -->
 {{--<header class="intro" style="background: url(images/earth.jpg); background-size:cover; background-repeat:no-repeat;">--}}
-<header class="intro" style="background: url(images/aurora.jpg) no-repeat; background-size:cover;">
+<header class="intro">
     <section id="home" class="container content-section text-center">
     <div class="intro-body">
         <div class="container">
@@ -110,12 +110,7 @@
             <p>
                 "We are on our ever swifter way to becoming an omni-integrated, majorly literate, unified Spaceship Earth society. The new human networks' emergence represents the natural evolutionary expansion into the just completed, thirty-years-in-its-buildings world-embracing, physical communications network. The new reorienting of human networking constitutes the heart-and-mind-pumped flow of life and intellect into the world arteries."
             </p>
-            <p>-Buckminster Fuller, Critical Path, 1981</p>
-            {{--<p>2+ years experience creating value through software development and technical consulting services for clients such as:</p>--}}
-            {{--<p><a href="http://www.protective.com/">Protective Life Insurance</a></p>--}}
-            {{--<p><a href="http://www.randallreilly.com/">Randall-Reilly</a></p>--}}
-            {{--<p><a href="https://www.ua.edu/">The University of Alabama</a></p>--}}
-            {{--<p>Open to freelance and pro bono opportunities.</p>--}}
+            <p>-Buckminster Fuller, <a href="http://en.wikipedia.org/wiki/Critical_Path_%28book%29" target="_blank">Critical Path</a>, 1981</p>
         </div>
     </div>
     <a href="#skills" class="btn btn-circle page-scroll">
@@ -125,7 +120,7 @@
 
 <!-- About Section -->
 <section id="earth" class="container content-section text-center">
-    <div class="row" style="background: url(images/earth.jpg) no-repeat center center scroll; padding-bottom: 100%;">
+    <div class="row" style="background: url(images/earth.jpg) center center; background-size: auto 100%; padding-bottom: 100%;">
         <div class="col-lg-8 col-lg-offset-2">
 
 
@@ -187,7 +182,7 @@
                 <br>
                 2015
                 <br>
-                Design, developed, tested, and deployed mobile friendly web solution to automate student immunization record collection and verification process, eliminating 78,000+ hours of aggregate process completion time per year
+                Designed, developed, tested, and deployed mobile friendly web solution to automate student immunization record collection and verification process, eliminating 78,000+ hours of aggregate process completion time per year.
             </p>
             <br>
             <h4>Admissions Algorithms</h4>
@@ -196,7 +191,7 @@
                 <br>
                 2015
                 <br>
-                Developed and maintained ranking algorithms to automate college admissions processes
+                Developed and maintained ranking algorithms to automate college admissions processes.
             </p>
             <br>
             <h4>Authorization Web Service</h4>
@@ -205,7 +200,7 @@
                 <br>
                 2014
                 <br>
-                Developed encrypted authorization and authentication web service to protect student information while enabling delivery of third party media services
+                Developed encrypted authorization and authentication web service to protect student information while enabling delivery of third party media services.
             </p>
             <br>
             <h4>Software Market Analysis</h4>
@@ -214,7 +209,7 @@
                 <br>
                 2014
                 <br>
-                Analyzed current state of e-recruiting systems and developed software recommendation based on market research, stakeholder requirements, and vendor demos
+                Analyzed current state of e-recruiting systems and developed software recommendation based on market research, stakeholder requirements, and vendor demos.
             </p>
             <br>
             <h4>Report Composer</h4>
@@ -235,9 +230,6 @@
                 Documented and analyzed current state process workflows for claims process and legacy systems, identifying pain points and manual processes to be automated in the future state.
             </p>
                 <br>
-
-
-
         </div>
     </div>
     <a href="#contact" class="btn btn-circle page-scroll">

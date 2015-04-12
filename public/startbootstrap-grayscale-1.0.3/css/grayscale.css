@@ -55,6 +55,7 @@ a:hover,
 a:focus {
     text-decoration: none;
     color: #1d9b6c;
+    /*color: #42dca3;*/
 }
 
 .light {
@@ -100,7 +101,8 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: #42dca3;
+    /*color: rgba(255,255,255,.8);*/
     background-color: transparent;
 }
 
@@ -140,6 +142,7 @@ a:focus {
     }
 }
 
+
 .intro {
     display: table;
     width: 100%;
@@ -147,6 +150,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
+    background: url(../img/aurora.jpg) no-repeat;
     /*style="background: url(images/earth4.jpg) no-repeat; background-size:cover;"*/
     /*background: url(images/earth4.jpg) no-repeat bottom center scroll;*/
     /*background-color: #000;*/
@@ -189,10 +193,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #42dca3;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #fff;
+    color: #42dca3;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -202,8 +206,9 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
+    color: white;
+    background: #42dca3;
+    /*border-color: white;*/
 }
 
 .btn-circle i.animated {
@@ -211,6 +216,7 @@ a:focus {
     -webkit-transition-duration: 1s;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: 1s;
+
 }
 
 .btn-circle:hover i.animated {
@@ -297,6 +303,8 @@ a:focus {
 }
 
 .btn {
+    color: #42dca3;
+    border-color:#42dca3;
     border-radius: 0;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -316,7 +324,7 @@ a:focus {
 .btn-default:focus {
     border: 1px solid #42dca3;
     outline: 0;
-    color: #000;
+    color: white;
     background-color: #42dca3;
 }
 
