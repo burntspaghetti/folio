@@ -219,6 +219,7 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Contact</h2>
+            <p>Open to freelance and probono opportunities.</p>
             <p>What can we do together?</p>
             <p><a href="mailto:nsbertanzetti@gmail.com">nsbertanzetti@gmail.com</a>
             </p>
@@ -234,18 +235,18 @@
                 </li>
 
             </ul>
-            {{ Form::open(array('action' => 'HomeController@form', 'class' => 'clearfix', 'style' => 'padding:1em 3em;')) }}
+            {{--{{ Form::open(array('action' => 'HomeController@form', 'class' => 'clearfix', 'style' => 'padding:1em 3em;')) }}--}}
 
 
-            <div class="form-group">
-                <label for="contactForm">Say Hello:</label>
+            {{--<div class="form-group">--}}
+                {{--<label for="contactForm">Say Hello:</label>--}}
 
-                <textarea style="border: 1px solid #42dca3; background: #333; color:#42dca3" class="form-control" id="contactForm" rows="3"></textarea>
-            </div>
-            <button class="btn btn-default" type="submit">Submit</button>
+                {{--<textarea style="border: 1px solid #42dca3; background: #333; color:#42dca3" class="form-control" id="contactForm" rows="3"></textarea>--}}
+            {{--</div>--}}
+            {{--<button class="btn btn-default" type="submit">Submit</button>--}}
 
 
-            {{ Form::close() }}
+            {{--{{ Form::close() }}--}}
         </div>
     </div>
 </section>
@@ -258,7 +259,8 @@
 <!-- Footer -->
 <footer>
     <div class="container text-center">
-        <p>Footer?</p>
+        <p></p>
+        Don't worry. Be Happy
     </div>
 </footer>
 
