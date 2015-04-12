@@ -129,25 +129,25 @@
             <h2>Skills</h2>
 
             <p>
-                <b>Languages: </b>PHP, SQL, JavaScript, HTML, CSS, C#*, C++*
+                <b><i class="fa fa-language"></i> Languages: </b>PHP, SQL, JavaScript, HTML, CSS, C#*, C++*
             </p>
             <p>
                 <b>Frameworks: </b>Laravel, jQuery, Bootstrap, ASP.NET MVC4*
             </p>
             <p>
-                <b>Databases: </b>Oracle, MySQL, Microsoft SSMS 2010/2012*
+                <b><i class="fa fa-database"></i> Databases: </b>Oracle, MySQL, Microsoft SSMS 2010/2012*
             </p>
             <p>
                 <b>Servers: </b>Apache, Nginx
             </p>
             <p>
-                <b>OS: </b>Linux (Ubuntu, OpenSUSE), Microsoft 7/8
+                <b><i class="fa fa-laptop"></i> OS: </b>Linux (Ubuntu, OpenSUSE), Microsoft 7/8
             </p>
             <p>
-                <b>IDE: </b>PHP Storm, Visual Studios 2010/2012*
+                <b><span class="glyphicon glyphicon-console" aria-hidden="true"></span> IDE: </b>PHP Storm, Visual Studios 2010/2012*
             </p>
             <p>
-                <b>Tools: </b>Git, JIRA, Vagrant, Bower, Composer, Sublime Text
+                <b><i class="fa fa-wrench"></i> Tools: </b>Git, JIRA, Vagrant, Bower, Composer, Sublime Text
             </p>
             <p>
                 <b>Methodologies: </b>Agile Scrum, Waterfall
@@ -164,6 +164,48 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>Projects</h2>
+            <h4>Report Composer</h4>
+            <p>
+                <b>Client: Randall-Reilly</b>
+                <br>
+                Designed and developed report customization tool which helped to improve customer service efficiency by cutting total process completion time of up to 2 weeks down to minutes.
+            </p>
+                <br>
+            <h4>BPI Analysis</h4>
+            <p>
+                <b>Client: Protective Life Insurance Company</b>
+                <br>
+                Documented and analyzed current state process workflows for claims process and legacy systems, identifying pain points and manual processes to be automated in the future state.
+            </p>
+                <br>
+            <h4>Software Market Analysis</h4>
+            <p>
+                <b>Client: University of Alabama Career Center</b>
+                <br>
+                Analyzed current state of e-recruiting systems and developed software recommendation based on market research, stakeholder requirements, and vendor demos
+            </p>
+                <br>
+            <h4>Authorization Web Service</h4>
+            <p>
+                <b>Client: Philo TV, The University of Alabama</b>
+                <br>
+                Developed encrypted authorization and authentication web service to protect student information while enabling delivery of third party media services
+            </p>
+            <br>
+            <h4>Immunization Automation</h4>
+            <p>
+                <b>Client: The University of Alabama Student Health Center</b>
+                <br>
+                Design, developed, tested, and deployed mobile friendly web solution to automate student immunization record collection and verification process, eliminating 78,000+ hours of aggregate process completion time per year
+            </p>
+            <br>
+            <h4>Admissions Algorithms</h4>
+            <p>
+                <b>Client: The University of Alabama College of Nursing</b>
+                <br>
+                Developed and maintained ranking algorithms to automate college admissions processes
+            </p>
+            <br>
 
         </div>
     </div>
@@ -234,6 +276,7 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="startbootstrap-grayscale-1.0.3/js/grayscale.js"></script>
+
 
 </body>
 
