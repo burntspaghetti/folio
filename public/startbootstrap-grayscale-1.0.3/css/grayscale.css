@@ -311,11 +311,11 @@ a:focus {
     .intro{
         /*color: red;*/
         padding-left: 3%;
-        background-size: 1200px auto;
-        -webkit-background-size: 1200px auto;
-        -moz-background-size: 1200px auto;
-        background-size: 1200px auto;
-        -o-background-size: 1200px auto;
+        background-size: 1200px 800px;
+        -webkit-background-size: 1200px 800px;
+        -moz-background-size: 1200px 800px;
+        background-size: 1200px 800px;
+        -o-background-size: 1200px 800px;
     }
 }
 
