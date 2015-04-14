@@ -309,7 +309,7 @@ a:focus {
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
     .intro{
-        color: red;
+        /*color: red;*/
         padding-left: 3%;
         background-size: 1200px auto;
         -webkit-background-size: 1200px auto;
