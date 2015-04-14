@@ -90,12 +90,9 @@
     <div class="intro-body">
         <div class="container">
             <div class="row" align="center">
-
                     <h1>Better, Faster, Cheaper.</h1>
                     <p>Automation and Full Stack Web Development </p>
                 <p><i class="fa fa-linux" data-toggle="tooltip" data-placement="top" rel="tooltip" title="Yes, I am a space penguin." id="blah"></i></p>
-
-
                     <a href="#about" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
@@ -242,7 +239,7 @@
             </p>
             <h1 class="page-header"></h1>
                 <br>
-            <h4>BPI Analysis</h4>
+            <h4>Legacy BPI Analysis</h4>
             <h2><i class="fa fa-random"></i></h2>
             <p>
                 <b>Client: Protective Life Insurance Company</b>

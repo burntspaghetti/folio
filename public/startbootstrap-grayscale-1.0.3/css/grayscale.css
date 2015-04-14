@@ -148,19 +148,20 @@ a:focus {
 
 .intro {
     display: table;
-    width: 100%;
+    width: 105%;
     height: 100%;
     /*padding: 10px 0;*/
     text-align: center;
     color: #fff;
     background: url(../img/aurora.jpg) no-repeat;
+    /*background-size: 105% 100%;*/
     /*style="background: url(images/earth4.jpg) no-repeat; background-size:cover;"*/
     /*background: url(images/earth4.jpg) no-repeat bottom center scroll;*/
     /*background-color: #000;*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: 105% 100%;
+    -moz-background-size: 105% 100%;
+    background-size: 105% 100%;
+    -o-background-size: 105% 100%;
 }
 
 .intro .intro-body {
@@ -308,8 +309,8 @@ a:focus {
 
 @media only screen and (max-width: 720px) and (orientation: portrait) {
     .intro{
-        padding: 0px 0px 3% 0px;
-        /*padding-left: 3%;*/
+        /*padding: 0px 0px 3% 0px;*/
+        padding-left: 3%;
         }
 }
 
