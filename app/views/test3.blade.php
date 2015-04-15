@@ -35,53 +35,53 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 <!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top">
-                <i class="fa fa-globe"></i>  <span class="light">Nick</span> Bertanzetti
-            </a>
-        </div>
+{{--<nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">--}}
+    {{--<div class="container">--}}
+        {{--<div class="navbar-header">--}}
+            {{--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">--}}
+                {{--<i class="fa fa-bars"></i>--}}
+            {{--</button>--}}
+            {{--<a class="navbar-brand page-scroll" href="#page-top">--}}
+                {{--<i class="fa fa-globe"></i>  <span class="light">Nick</span> Bertanzetti--}}
+            {{--</a>--}}
+        {{--</div>--}}
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#home">Home</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#technologies">Tech</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#projects">Projects</a>
-                </li>
+        {{--<!-- Collect the nav links, forms, and other content for toggling -->--}}
+        {{--<div class="collapse navbar-collapse navbar-right navbar-main-collapse">--}}
+            {{--<ul class="nav navbar-nav">--}}
+                {{--<!-- Hidden li included to remove active class from about link when scrolled up past about section -->--}}
+                {{--<li class="hidden">--}}
+                    {{--<a href="#page-top"></a>--}}
+                {{--</li>--}}
+                {{--<li>--}}
+                    {{--<a class="page-scroll" href="#home">Home</a>--}}
+                {{--</li>--}}
+                {{--<li>--}}
+                    {{--<a class="page-scroll" href="#technologies">Tech</a>--}}
+                {{--</li>--}}
+                {{--<li>--}}
+                    {{--<a class="page-scroll" href="#projects">Projects</a>--}}
+                {{--</li>--}}
                 {{--<li>--}}
                     {{--<a class="page-scroll" href="#about">Info</a>--}}
                 {{--</li>--}}
                 {{--<li>--}}
                     {{--<a class="page-scroll" href="#education">Education</a>--}}
                 {{--</li>--}}
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
+                {{--<li>--}}
+                    {{--<a class="page-scroll" href="#contact">Contact</a>--}}
+                {{--</li>--}}
                 {{--<li>--}}
                     {{--<a class="page-scroll" href="#download">Download</a>--}}
                 {{--</li>--}}
 
 
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
+            {{--</ul>--}}
+        {{--</div>--}}
+        {{--<!-- /.navbar-collapse -->--}}
+    {{--</div>--}}
+    {{--<!-- /.container -->--}}
+{{--</nav>--}}
 
 <!-- Intro Header -->
 {{--<header class="intro" style="background: url(images/earth.jpg); background-size:cover; background-repeat:no-repeat;">--}}
@@ -93,9 +93,9 @@
                     <h1>Better, Faster, Cheaper.</h1>
                     <p>Automation and Full Stack Web Development </p>
                 <p><i class="fa fa-linux" data-toggle="tooltip" data-placement="top" rel="tooltip" title="Yes, I am a space penguin." id="blah"></i></p>
-                    <a href="#about" class="btn btn-circle page-scroll">
-                        <i class="fa fa-angle-double-down animated"></i>
-                    </a>
+                    {{--<a href="#about" class="btn btn-circle page-scroll">--}}
+                        {{--<i class="fa fa-angle-double-down animated"></i>--}}
+                    {{--</a>--}}
             </div>
         </div>
     </div>
@@ -113,9 +113,9 @@
             <p>-Buckminster Fuller, <a href="http://en.wikipedia.org/wiki/Critical_Path_%28book%29" target="_blank">Critical Path</a>, 1981</p>
         </div>
     </div>
-    <a href="#technologies" class="btn btn-circle page-scroll">
-        <i class="fa fa-angle-double-down animated"></i>
-    </a>
+    {{--<a href="#technologies" class="btn btn-circle page-scroll">--}}
+        {{--<i class="fa fa-angle-double-down animated"></i>--}}
+    {{--</a>--}}
 </section>
 
 
@@ -163,9 +163,9 @@
             * Technologies used in <a href="http://uanews.ua.edu/2013/07/ua-mis-program-ranked-fourth-among-public-institutions/" target="_blank">university MIS projects </a>
         </div>
     </div>
-    <a href="#projects" class="btn btn-circle page-scroll">
-        <i class="fa fa-angle-double-down animated"></i>
-    </a>
+    {{--<a href="#projects" class="btn btn-circle page-scroll">--}}
+        {{--<i class="fa fa-angle-double-down animated"></i>--}}
+    {{--</a>--}}
 </section>
 
 {{--<section id="tech" class="container content-section text-center">--}}
@@ -252,9 +252,9 @@
                 <br>
         </div>
     </div>
-    <a href="#contact" class="btn btn-circle page-scroll">
-        <i class="fa fa-angle-double-down animated"></i>
-    </a>
+    {{--<a href="#contact" class="btn btn-circle page-scroll">--}}
+        {{--<i class="fa fa-angle-double-down animated"></i>--}}
+    {{--</a>--}}
 </section>
 
 
