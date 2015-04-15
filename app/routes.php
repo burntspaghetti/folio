@@ -11,6 +11,11 @@
 |
 */
 
+
+Route::get('/blah', function()
+{
+	dd('blag');
+});
 //Route::get('/', function()
 //{
 ////	$image = Image::make(public_path() . '/images/mtn.jpg')->response('jpg');
@@ -92,4 +97,10 @@ Route::get('/test10', function()
 Route::get('/starwars', function()
 {
 	return View::make('starwars');
+});
+
+
+Route::get('/wtf', function()
+{
+	return View::make('grayscale');
 });
