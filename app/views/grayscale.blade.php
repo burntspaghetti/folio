@@ -74,8 +74,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1 class="brand-heading">Grayscale</h1>
-                    <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
+                    <h1 class="brand-heading">Better, Faster, Cheaper.</h1>
+                    <p class="intro-text">Automation and Full Stack Web Dev</p>
                     <a href="#about" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
@@ -95,41 +95,38 @@
     </div>
 </section>
 
-<!-- Download Section -->
-<section id="download" class="content-section text-center">
-    <div class="download-section">
-        <div class="container">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Tech</h2>
+<section id="tech" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Tech</h2>
 
-                <h1><i class="fa fa-keyboard-o"></i></h1>
+            <h1><i class="fa fa-keyboard-o"></i></h1>
 
-                <p>
-                    <b>Languages: </b>PHP, SQL, JavaScript, HTML, CSS, C#*, C++*
-                </p>
-                <p>
-                    <b>Frameworks: </b>Laravel, jQuery, Bootstrap, ASP.NET MVC4*
-                </p>
-                <p>
-                    <b>Databases: </b>Oracle, MySQL, Microsoft SSMS 2010/2012*
-                </p>
-                <p>
-                    <b>Servers: </b>Apache, Nginx
-                </p>
-                <p>
-                    <b>OS: </b>Linux (Ubuntu, OpenSUSE), Microsoft 7/8
-                </p>
-                <p>
-                    <b>IDE: </b>PHP Storm, Visual Studios 2010/2012*
-                </p>
-                <p>
-                    <b>Tools: </b>Git, JIRA, Vagrant, Bower, Composer, Sublime Text
-                </p>
-                <p>
-                    <b>Methodologies: </b>Agile Scrum, Waterfall
-                </p>
-                * Technologies used in <a href="http://uanews.ua.edu/2013/07/ua-mis-program-ranked-fourth-among-public-institutions/" target="_blank">university MIS projects </a>
-            </div>
+            <p>
+                <b>Languages: </b>PHP, SQL, JavaScript, HTML, CSS, C#*, C++*
+            </p>
+            <p>
+                <b>Frameworks: </b>Laravel, jQuery, Bootstrap, ASP.NET MVC4*
+            </p>
+            <p>
+                <b>Databases: </b>Oracle, MySQL, Microsoft SSMS 2010/2012*
+            </p>
+            <p>
+                <b>Servers: </b>Apache, Nginx
+            </p>
+            <p>
+                <b>OS: </b>Linux (Ubuntu, OpenSUSE), Microsoft 7/8
+            </p>
+            <p>
+                <b>IDE: </b>PHP Storm, Visual Studios 2010/2012*
+            </p>
+            <p>
+                <b>Tools: </b>Git, JIRA, Vagrant, Bower, Composer, Sublime Text
+            </p>
+            <p>
+                <b>Methodologies: </b>Agile Scrum, Waterfall
+            </p>
+            * Technologies used in <a href="http://uanews.ua.edu/2013/07/ua-mis-program-ranked-fourth-among-public-institutions/" target="_blank">university MIS projects </a>
         </div>
     </div>
 </section>
@@ -137,7 +134,6 @@
 
 
 
-<!-- Contact Section -->
 <section id="projects" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
@@ -220,19 +216,21 @@
 <section id="contact" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-            <h2>Contact Start Bootstrap</h2>
-            <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-            <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+            <h2>Contact</h2>
+            <h2><i class="fa fa-envelope-o"></i></h2>
+            <p>Let's team up.</p>
+            <p>What can we do together?</p>
+            <p><a href="mailto:nsbertanzetti@gmail.com">nsbertanzetti@gmail.com</a>
             </p>
             <ul class="list-inline banner-social-buttons">
                 <li>
-                    <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    <a href="https://www.linkedin.com/pub/nick-bertanzetti/47/574/277" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw" title="LinkedIn"></i> <span class="network-name"></span></a>
                 </li>
                 <li>
-                    <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    <a href="https://github.com/burntspaghetti" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name"></span></a>
                 </li>
                 <li>
-                    <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    <a href="http://stackoverflow.com/users/3895839/thesingularity" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-stack-overflow"></i> <span class="network-name"></span></a>
                 </li>
             </ul>
         </div>
@@ -243,7 +241,9 @@
 <!-- Footer -->
 <footer>
     <div class="container text-center">
-        <p>Copyright &copy; Your Website 2014</p>
+        <p></p>
+        Don't worry, be happy
+        <i class="fa fa-smile-o"></i>
     </div>
 </footer>
 
