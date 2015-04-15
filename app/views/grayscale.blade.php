@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>Spaceship Earth</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="grayscale/css/bootstrap.min.css" rel="stylesheet">
@@ -89,10 +89,8 @@
 <section id="about" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-            <h2>About Grayscale</h2>
-            <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-            <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-            <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+            <p>"We are on our ever swifter way to becoming an omni-integrated, majorly literate, unified Spaceship Earth society. The new human networks' emergence represents the natural evolutionary expansion into the just completed, thirty-years-in-its-buildings world-embracing, physical communications network. The new reorienting of human networking constitutes the heart-and-mind-pumped flow of life and intellect into the world arteries."</p>
+            <p>-Buckminster Fuller, <a href="http://en.wikipedia.org/wiki/Critical_Path_%28book%29" target="_blank">Critical Path</a>, 1981</p>
         </div>
     </div>
 </section>
@@ -102,10 +100,118 @@
     <div class="download-section">
         <div class="container">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Download Grayscale</h2>
-                <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                <h2>Tech</h2>
+
+                <h1><i class="fa fa-keyboard-o"></i></h1>
+
+                <p>
+                    <b>Languages: </b>PHP, SQL, JavaScript, HTML, CSS, C#*, C++*
+                </p>
+                <p>
+                    <b>Frameworks: </b>Laravel, jQuery, Bootstrap, ASP.NET MVC4*
+                </p>
+                <p>
+                    <b>Databases: </b>Oracle, MySQL, Microsoft SSMS 2010/2012*
+                </p>
+                <p>
+                    <b>Servers: </b>Apache, Nginx
+                </p>
+                <p>
+                    <b>OS: </b>Linux (Ubuntu, OpenSUSE), Microsoft 7/8
+                </p>
+                <p>
+                    <b>IDE: </b>PHP Storm, Visual Studios 2010/2012*
+                </p>
+                <p>
+                    <b>Tools: </b>Git, JIRA, Vagrant, Bower, Composer, Sublime Text
+                </p>
+                <p>
+                    <b>Methodologies: </b>Agile Scrum, Waterfall
+                </p>
+                * Technologies used in <a href="http://uanews.ua.edu/2013/07/ua-mis-program-ranked-fourth-among-public-institutions/" target="_blank">university MIS projects </a>
             </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Contact Section -->
+<section id="projects" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Projects</h2>
+            <h2><i class="fa fa-folder-open-o"></i></h2>
+
+            <h1 class="page-header"></h1>
+            <h4>Immunization Automation</h4>
+            <h2><i class="fa fa-heartbeat"></i></h2>
+            <p>
+                <b>Client: The University of Alabama Student Health Center</b>
+                <br>
+                2015
+                <br>
+                Designed, developed, tested, and deployed mobile friendly web solution to automate student immunization record collection and verification process, eliminating 78,000+ hours of aggregate process completion time per year.
+            </p>
+            <h1 class="page-header"></h1>
+            <br>
+
+            <h4>Admissions Algorithms</h4>
+            <h2><i class="fa fa-calculator"></i></h2>
+            <p>
+                <b>Client: The University of Alabama College of Nursing</b>
+                <br>
+                2015
+                <br>
+                Developed and maintained ranking algorithms to automate college admissions process.
+            </p>
+            <h1 class="page-header"></h1>
+            <br>
+            <h4>Authorization Web Service</h4>
+            <h2><i class="fa fa-lock"></i></h2>
+            <p>
+                <b>Client: Philo TV, The University of Alabama</b>
+                <br>
+                2014
+                <br>
+                Developed encrypted authorization and authentication web service to protect student information while enabling delivery of third party media services.
+            </p>
+            <h1 class="page-header"></h1>
+            <br>
+            <h4>Software Market Analysis</h4>
+            <h2><i class="fa fa-line-chart"></i></h2>
+            <p>
+                <b>Client: University of Alabama Career Center</b>
+                <br>
+                2014
+                <br>
+                Analyzed current state of e-recruiting systems and developed software recommendation based on market research, stakeholder requirements, and vendor demos.
+            </p>
+            <h1 class="page-header"></h1>
+            <br>
+            <h4>Report Composer</h4>
+            <h2><i class="fa fa-bar-chart"></i></h2>
+            <p>
+                <b>Client: Randall-Reilly</b>
+                <br>
+                2013
+                <br>
+                Designed and developed Google Analytics report customization tool which helped to improve customer service efficiency by cutting total process completion time of up to 2 weeks down to minutes.
+            </p>
+            <h1 class="page-header"></h1>
+            <br>
+            <h4>Legacy BPI Analysis</h4>
+            <h2><i class="fa fa-random"></i></h2>
+            <p>
+                <b>Client: Protective Life Insurance Company</b>
+                <br>
+                2013
+                <br>
+                Mapped and analyzed current state workflows for legacy claims systems, identifying pain points and manual processes to be automated in the future state.
+            </p>
+            <h1 class="page-header"></h1>
+            <br>
         </div>
     </div>
 </section>
@@ -133,8 +239,6 @@
     </div>
 </section>
 
-<!-- Map Section -->
-<div id="map"></div>
 
 <!-- Footer -->
 <footer>
@@ -151,9 +255,6 @@
 
 <!-- Plugin JavaScript -->
 <script src="grayscale/js/jquery.easing.min.js"></script>
-
-<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
 <!-- Custom Theme JavaScript -->
 <script src="grayscale/js/grayscale.js"></script>
