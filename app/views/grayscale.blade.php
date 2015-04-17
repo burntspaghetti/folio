@@ -107,10 +107,6 @@
     <div class="download-section">
         <div class="container">
             <div class="col-lg-8 col-lg-offset-2">
-                {{--<p>-Buckminster Fuller, <a href="http://en.wikipedia.org/wiki/Critical_Path_%28book%29" target="_blank">Critical Path</a>, 1981</p>--}}
-                {{--<a href="#about" class="btn btn-circle page-scroll">--}}
-                    {{--<i class="fa fa-angle-double-down animated"></i>--}}
-                {{--</a>--}}
             </div>
         </div>
     </div>
@@ -158,18 +154,19 @@
     </div>
 </section>
 
-<section id="pic1" class="content-section text-center">
-    <div class="pic-section">
-        <div class="container">
-            <div class="col-lg-8 col-lg-offset-2">
+{{--<section id="pic1" class="content-section text-center">--}}
+    {{--<div class="pic-section">--}}
+        {{--<div class="container">--}}
+            {{--<div class="col-lg-8 col-lg-offset-2">--}}
+                {{--<h1>test</h1>--}}
                 {{--<p>-Buckminster Fuller, <a href="http://en.wikipedia.org/wiki/Critical_Path_%28book%29" target="_blank">Critical Path</a>, 1981</p>--}}
                 {{--<a href="#about" class="btn btn-circle page-scroll">--}}
                 {{--<i class="fa fa-angle-double-down animated"></i>--}}
                 {{--</a>--}}
-            </div>
-        </div>
-    </div>
-</section>
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</section>--}}
 
 
 <section id="projects" class="container content-section text-center">
