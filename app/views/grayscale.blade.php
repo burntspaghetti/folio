@@ -158,7 +158,18 @@
     </div>
 </section>
 
-
+<section id="pic1" class="content-section text-center">
+    <div class="pic-section">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                {{--<p>-Buckminster Fuller, <a href="http://en.wikipedia.org/wiki/Critical_Path_%28book%29" target="_blank">Critical Path</a>, 1981</p>--}}
+                {{--<a href="#about" class="btn btn-circle page-scroll">--}}
+                {{--<i class="fa fa-angle-double-down animated"></i>--}}
+                {{--</a>--}}
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <section id="projects" class="container content-section text-center">
@@ -257,7 +268,7 @@
                     <a href="https://www.linkedin.com/pub/nick-bertanzetti/47/574/277" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw" title="LinkedIn"></i> <span class="network-name"></span></a>
                 </li>
                 <li>
-                    <a href="https://github.com/burntspaghetti" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name"></span></a>
+                    <a href="https://github.com/burntspaghetti" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-git fa-fw"></i> <span class="network-name"></span></a>
                 </li>
                 <li>
                     <a href="http://stackoverflow.com/users/3895839/thesingularity" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-stack-overflow"></i> <span class="network-name"></span></a>

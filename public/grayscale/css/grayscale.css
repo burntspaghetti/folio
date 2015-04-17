@@ -89,7 +89,8 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #42dca3;
+
 }
 
 .navbar-custom .nav li a {
@@ -147,7 +148,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/aurora.jpg) no-repeat bottom center scroll;
+    background: url(../img/iss3.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -188,10 +189,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 1px solid #42dca3;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #fff;
+    color: #42dca3;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -201,8 +202,14 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
+    color: black;
+    background: #42dca3;
+    border-color: white;
+    /*border-size: .25px;*/
+
+    -webkit-box-shadow: 0px 0px 10px 0px #42dca3;
+    -moz-box-shadow: 0px 0px 10px 0px #42dca3;
+    box-shadow: 0px 0px 10px 0px #42dca3;
 }
 
 .btn-circle i.animated {
@@ -274,10 +281,37 @@ a:focus {
     -o-background-size: cover;
 }
 
+.pic-section {
+    width: auto;
+    height: 550px;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/net.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 #map {
     width: 100%;
     height: 200px;
     margin-top: 100px;
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .pic-section{
+        height:180px;
+        width: auto;
+            /*color: red;*/
+            /*padding-left: 3%;*/
+            background-size: 180px auto;
+            -webkit-background-size: 180px auto;
+            -moz-background-size: 180px auto;
+            background-size: 180px auto;
+            -o-background-size: 180px auto;
+        }
 }
 
 @media(min-width:767px) {
@@ -287,6 +321,11 @@ a:focus {
 
     .download-section {
         padding: 100px 0;
+    }
+
+    .pic-section {
+        padding: 100px 0;
+        height:366px;
     }
 
     #map {
@@ -307,6 +346,7 @@ a:focus {
 
 .btn-default {
     border: 1px solid #42dca3;
+    border-radius: 25px;
     color: #42dca3;
     background-color: transparent;
 }
