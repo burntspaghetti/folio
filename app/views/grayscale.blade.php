@@ -79,6 +79,7 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h1 class="brand-heading">Better, Faster, Cheaper.</h1>
                     <p class="intro-text">Automation and Full Stack Web Dev</p>
+                    <p><i class="fa fa-linux"></i></p>
                     <a href="#about" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
@@ -137,7 +138,7 @@
                 <b>OS: </b>Linux (Ubuntu, OpenSUSE), Windows 7/8
             </p>
             <p>
-                <b>IDE: </b>PHP Storm, Visual Studios 2010/2012*
+                <b>IDE: </b>PHP Storm, Visual Studio 2010/2012*
             </p>
             <p>
                 <b>Tools: </b>Git, JIRA, Vagrant, Bower, Composer, Sublime Text
