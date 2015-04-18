@@ -100,7 +100,7 @@ Route::get('/starwars', function()
 });
 
 
-Route::get('/wtf', function()
+Route::get('/', function()
 {
 	return View::make('grayscale');
 });

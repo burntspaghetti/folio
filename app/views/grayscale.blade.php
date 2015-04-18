@@ -102,15 +102,15 @@
     </div>
 </section>
 
-<!-- Download Section -->
-<section id="download" class="content-section text-center">
-    <div class="download-section">
-        <div class="container">
-            <div class="col-lg-8 col-lg-offset-2">
-            </div>
-        </div>
-    </div>
-</section>
+{{--<!-- Download Section -->--}}
+{{--<section id="download" class="content-section text-center">--}}
+    {{--<div class="download-section">--}}
+        {{--<div class="container">--}}
+            {{--<div class="col-lg-8 col-lg-offset-2">--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</section>--}}
 
 
 
@@ -134,7 +134,7 @@
                 <b>Servers: </b>Apache, Nginx
             </p>
             <p>
-                <b>OS: </b>Linux (Ubuntu, OpenSUSE), Microsoft 7/8
+                <b>OS: </b>Linux (Ubuntu, OpenSUSE), Windows 7/8
             </p>
             <p>
                 <b>IDE: </b>PHP Storm, Visual Studios 2010/2012*
@@ -268,7 +268,7 @@
                     <a href="https://github.com/burntspaghetti" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-git fa-fw"></i> <span class="network-name"></span></a>
                 </li>
                 <li>
-                    <a href="http://stackoverflow.com/users/3895839/thesingularity" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-stack-overflow"></i> <span class="network-name"></span></a>
+                    <a href="http://stackoverflow.com/users/3895839/thesingularity" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-stack-overflow" style="padding-right: 4px; padding-left: 4px;"></i> <span class="network-name"></span></a>
                 </li>
             </ul>
         </div>

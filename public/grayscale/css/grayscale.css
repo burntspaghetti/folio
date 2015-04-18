@@ -208,7 +208,7 @@ a:focus {
     outline: 0;
     color: black;
     background: #42dca3;
-    border-color: white;
+    border-color: #42dca3;
     /*border-size: .25px;*/
 
     -webkit-box-shadow: 0px 0px 10px 0px #42dca3;
@@ -350,7 +350,7 @@ a:focus {
 
 .btn-default {
     border: 1px solid #42dca3;
-    border-radius: 25px;
+    border-radius: 10px;
     color: #42dca3;
     background-color: transparent;
     -webkit-box-shadow: 0px 0px 5px 0px #42dca3;
