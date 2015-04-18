@@ -1,102 +1,40 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the Closure to execute when that URI is requested.
-|
-*/
-
-
-Route::get('/blah', function()
-{
-	dd('blag');
-});
-//Route::get('/', function()
-//{
-////	$image = Image::make(public_path() . '/images/mtn.jpg')->response('jpg');
-////	return $image;
-//
-//
-//	return View::make('home', compact('image'));
-//});
-
-Route::get('/test', function()
-{
-	return View::make('test');
-});
-
-Route::get('/test2', function()
-{
-	return View::make('test2');
-});
-
-Route::get('/test22', function()
-{
-	return View::make('test22');
-});
-Route::get('/testing', 'HomeController@testing');
-Route::get('/home', function()
-{
-	return View::make('test3');
-});
-
-Route::get('/contactForm', 'HomeController@form');
-Route::get('/testingtesting', function()
-{
-	dd('ello');
-});
 
 //clean blog
-//Route::get('/test4', function()
-//{
-//	return View::make('test4');
-//});
-Route::get('/test4', 'HomeController@home');
+Route::get('/template1', function()
+{
+	return View::make('test4');
+});
+//Route::get('/test4', 'HomeController@home');
 
 //dashboard
-Route::get('/test5', function()
+Route::get('/template2', function()
 {
 	return View::make('test5');
 });
 
 //blog post
-Route::get('/test6', function()
+Route::get('/template3', function()
 {
 	return View::make('test6');
 });
 
 //blog home
-Route::get('/test7', function()
+Route::get('/template4', function()
 {
 	return View::make('test7');
 });
 
 //slate
-Route::get('/test8', function()
+Route::get('/template5', function()
 {
 	return View::make('test8');
 });
 
-Route::get('/test9', function()
+Route::get('/template6', function()
 {
-//	dd('test');
 	return View::make('test9');
-});
-
-//incomplete. lots of extra files. would be faster to scrape than to copy paste
-Route::get('/test10', function()
-{
-	return View::make('test10');
-});
-
-Route::get('/starwars', function()
-{
-	return View::make('starwars');
 });
 
 
