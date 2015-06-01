@@ -96,9 +96,9 @@
         <div class="col-lg-8 col-lg-offset-2">
             <p>"We are on our ever swifter way to becoming an omni-integrated, majorly literate, unified Spaceship Earth society. The new human networks' emergence represents the natural evolutionary expansion into the just completed, thirty-years-in-its-buildings world-embracing, physical communications network. The new reorienting of human networking constitutes the heart-and-mind-pumped flow of life and intellect into the world arteries."</p>
             <p>-Buckminster Fuller, <a href="http://en.wikipedia.org/wiki/Critical_Path_%28book%29" target="_blank">Critical Path</a>, 1981</p>
-            <a href="#tech" class="btn btn-circle page-scroll">
-                <i class="fa fa-angle-double-down animated"></i>
-            </a>
+            {{--<a href="#tech" class="btn btn-circle page-scroll">--}}
+                {{--<i class="fa fa-angle-double-down animated"></i>--}}
+            {{--</a>--}}
         </div>
     </div>
 </section>
@@ -147,10 +147,10 @@
                 <b>Methodologies: </b>Agile Scrum, Waterfall
             </p>
             * Technologies used in <a href="http://uanews.ua.edu/2013/07/ua-mis-program-ranked-fourth-among-public-institutions/" target="_blank">university MIS projects </a>
-            <br>
-            <a href="#projects" class="btn btn-circle page-scroll">
-                <i class="fa fa-angle-double-down animated"></i>
-            </a>
+            {{--<br>--}}
+            {{--<a href="#projects" class="btn btn-circle page-scroll">--}}
+                {{--<i class="fa fa-angle-double-down animated"></i>--}}
+            {{--</a>--}}
         </div>
     </div>
 </section>
@@ -244,9 +244,9 @@
             </p>
             <h1 class="page-header"></h1>
             <br>
-            <a href="#contact" class="btn btn-circle page-scroll">
-                <i class="fa fa-angle-double-down animated"></i>
-            </a>
+            {{--<a href="#contact" class="btn btn-circle page-scroll">--}}
+                {{--<i class="fa fa-angle-double-down animated"></i>--}}
+            {{--</a>--}}
         </div>
     </div>
 </section>
@@ -281,7 +281,7 @@
 <footer>
     <div class="container text-center">
         <p></p>
-        Don't worry, be happy
+        Don't Worry, Be Happy
         <i class="fa fa-smile-o"></i>
     </div>
 </footer>
