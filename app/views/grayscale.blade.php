@@ -177,6 +177,17 @@
             <h2><i class="fa fa-folder-open-o"></i></h2>
 
             <h1 class="page-header"></h1>
+            <h4>Deep Learning Dashboard</h4>
+            <h2><i class="fa fa-twitter"></i></h2>
+            <p>
+
+                2015
+                <br>
+                Designed and developed deep learning dashboard utilizing AlchemyAPI's Aritificial Intelligence services to analyze trending sentiment on Twitter based on user search terms.
+            </p>
+            <h1 class="page-header"></h1>
+            <br>
+
             <h4>Immunization Automation</h4>
             <h2><i class="fa fa-heartbeat"></i></h2>
             <p>
