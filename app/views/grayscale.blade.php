@@ -123,7 +123,7 @@
             <h1><i class="fa fa-keyboard-o"></i></h1>
 
             <p>
-                <b>Languages: </b>PHP, SQL, JavaScript, HTML, SASS/CSS, C#, C++*
+                <b>Languages: </b>PHP, C#, C++*, SQL, JavaScript, HTML, SASS/CSS
             </p>
             <p>
                 <b>Frameworks: </b>Laravel, ASP.NET MVC5, jQuery, Bootstrap
