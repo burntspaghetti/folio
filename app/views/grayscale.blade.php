@@ -123,13 +123,13 @@
             <h1><i class="fa fa-keyboard-o"></i></h1>
 
             <p>
-                <b>Languages: </b>PHP, SQL, JavaScript, HTML, CSS, C#*, C++*
+                <b>Languages: </b>PHP, SQL, JavaScript, HTML, SASS/CSS, C#, C++*
             </p>
             <p>
-                <b>Frameworks: </b>Laravel, jQuery, Bootstrap, ASP.NET MVC4*
+                <b>Frameworks: </b>Laravel, ASP.NET MVC5, jQuery, Bootstrap
             </p>
             <p>
-                <b>Databases: </b>Oracle, MySQL, Microsoft SSMS 2010/2012*
+                <b>Databases: </b>Oracle, MySQL, Microsoft SQL Server
             </p>
             <p>
                 <b>Servers: </b>Apache, Nginx
@@ -138,7 +138,7 @@
                 <b>OS: </b>Linux (Ubuntu, OpenSUSE), Windows 7/8
             </p>
             <p>
-                <b>IDE: </b>PHP Storm, Visual Studio 2010/2012*
+                <b>IDE: </b>PHP Storm, Visual Studio
             </p>
             <p>
                 <b>Tools: </b>Git, JIRA, Vagrant, Bower, Composer, Sublime Text
