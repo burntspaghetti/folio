@@ -80,9 +80,9 @@
                     <h1 class="brand-heading">Better, Faster, Cheaper.</h1>
                     <p class="intro-text">Automation and Full Stack Web Dev</p>
                     <p><i class="fa fa-linux"></i></p>
-                    <a href="#about" class="btn btn-circle page-scroll">
-                        <i class="fa fa-angle-double-down animated"></i>
-                    </a>
+                    {{--<a href="#about" class="btn btn-circle page-scroll">--}}
+                        {{--<i class="fa fa-angle-double-down animated"></i>--}}
+                    {{--</a>--}}
                 </div>
             </div>
         </div>
@@ -177,61 +177,108 @@
             <h2><i class="fa fa-folder-open-o"></i></h2>
 
             <h1 class="page-header"></h1>
-            <h4>Deep Learning Dashboard</h4>
+            <h4><a href="http://deeplearning.nburntspaghetti.com/" target="_blank">Deep Learning Dashboard</a></h4>
             <h2><i class="fa fa-twitter"></i></h2>
             <p>
-
                 2015
                 <br>
-                Designed and developed deep learning dashboard utilizing AlchemyAPI's Aritificial Intelligence services to analyze trending sentiment on Twitter based on user search terms.
+                Designed and developed deep learning dashboard utilizing AlchemyAPI's Artificial Intelligence services to analyze trending sentiment on Twitter based on user search terms.
             </p>
-            <h1 class="page-header"></h1>
+            <hr/>
             <br>
-
-            <h4>Immunization Automation</h4>
+            <h4>Authentication and Authorization Web Service</h4>
+            <h2><i class="fa fa-lock"></i></h2>
+            <p>
+                <b>Client: Philo TV, University of Alabama</b>
+                <br>
+                2014
+                <br>
+                First project utilizing a whole new stack of technolgies: Linux, Apache, Oracle, PHP/Laravel. Developed encrypted authentication and authorization web service for 3rd party vendor using CAS and AES to protect student information in accordance with FERPA standards. Designed and developed adminstrative user management interface. Enabled delivery of internet TV streaming services to campus stakeholders.
+            </p>
+            <hr/>
+            <br>
+            <h4><a target="_blank" href="/public/images/immunizations.png">Immunization Automation</a></h4>
             <h2><i class="fa fa-heartbeat"></i></h2>
             <p>
-                <b>Client: The University of Alabama Student Health Center</b>
+                <b>Client: Student Health Center, University of Alabama</b>
                 <br>
-                2015
+                2014
                 <br>
-                Designed, developed, tested, and deployed mobile friendly web solution to automate student immunization record collection and verification process, eliminating 78,000+ hours of aggregate process completion time per year.
+                Legacy student health center immunizations records collection and verification process was failing to meet schedule requirements due to increased volume, the use of outdated technologies and the many manual subprocesses involved. Designed, developed, tested, deployed, and maintained mobile friendly web-based interface for the downloading and uploading of immunization records directly to the student health center using a camera phone. Installed image and file manipulation libraries on local, staging, and production Apache servers. Used <a href="http://image.intervention.io/">Image Intervention</a> for mobile image orientation and <a href="http://www.ghostscript.com/">Ghostscript</a> for converting and merging uploads in to one PDF. Solution saves more than 78,000 hours of aggregate process completion time per year.
             </p>
-            <h1 class="page-header"></h1>
+            <hr/>
             <br>
 
             <h4>Admissions Algorithms</h4>
             <h2><i class="fa fa-calculator"></i></h2>
             <p>
-                <b>Client: The University of Alabama College of Nursing</b>
+                <b>Client: College of Nursing, University of Alabama</b>
                 <br>
                 2015
                 <br>
-                Developed and maintained ranking algorithms to automate college admissions process.
+                Maintained and rewrote legacy code base for application and administration system for the school of nursing admissions process. Consolidated 15,000+ line PL/SQL algorithm into under 4,000 lines of more flexible and maintainable functions.
             </p>
-            <h1 class="page-header"></h1>
+            <hr/>
             <br>
-            <h4>Authorization Web Service</h4>
-            <h2><i class="fa fa-lock"></i></h2>
+
+            <h4><a href="https://sa-app01.ua.edu/premierAwards/public/" target="_blank">Premier Awards Scholarships</a></h4>
+            <h2><i class="fa fa-trophy"></i></h2>
             <p>
-                <b>Client: Philo TV, The University of Alabama</b>
+                <b>Client: Department of Student Affairs, University of Alabama</b>
                 <br>
-                2014
+                2015
                 <br>
-                Developed encrypted authorization and authentication web service to protect student information while enabling delivery of third party media services.
+                Interfaced with stakeholders to determine requirements for scholarship application and administration process. Designed, developed, tested, and deployed responsive database driven web application to automate paper-based processes and improve overall process efficiency.
             </p>
-            <h1 class="page-header"></h1>
+            <hr/>
             <br>
+
+            <h4>Addison Toole Scholarship</h4>
+            <h2><i class="fa fa-wheelchair"></i></h2>
+            <p>
+                <b>Client: Department of Student Affairs, University of Alabama</b>
+                <br>
+                2015
+                <br>
+                Gathered requirements for new scholarship application process. Designed, developed, tested, and deployed responsive database driven web application adhering to WCAG 2.0 AA web accessibility standards.
+            </p>
+            <hr/>
+            <br>
+
+            <h4><a href="https://sa-app01.ua.edu/promenadeapp/public/">Crimson Promenade</a></h4>
+            <h2><i class="fa fa-credit-card"></i></h2>
+            <p>
+                <b>Client: Department of Student Affairs, University of Alabama</b>
+                <br>
+                2015
+                <br>
+                Pair programmed responsive database driven web application for a public facing donation system. Streamlined administrative tasks by automating manual processes improving customer service and overall efficiency.
+            </p>
+            <hr/>
+            <br>
+
+            <h4><a target="_blank" href="images/wellbama.png">WellBama Exercise Journal and Weekly Tracker</a></h4>
+            <h2><i class="fa fa-smile-o"></i></h2>
+            <p>
+                <b>Client: Office of Health Promotion and Wellness, University of Alabama</b>
+                <br>
+                2015
+                <br>
+                Designed and developed exercise tracking systems for internal wellness web application in order to help increase well-being and productivity for campus faculty and staff.
+            </p>
+            <hr/>
+            <br>
+
             <h4>Software Market Analysis</h4>
             <h2><i class="fa fa-line-chart"></i></h2>
             <p>
-                <b>Client: University of Alabama Career Center</b>
+                <b>Client: Career Center, University of Alabama</b>
                 <br>
                 2014
                 <br>
                 Analyzed current state of e-recruiting systems and developed software recommendation based on market research, stakeholder requirements, and vendor demos.
             </p>
-            <h1 class="page-header"></h1>
+            <hr/>
             <br>
             <h4>Report Composer</h4>
             <h2><i class="fa fa-bar-chart"></i></h2>
@@ -242,7 +289,7 @@
                 <br>
                 Designed and developed Google Analytics report customization tool which helped to improve customer service efficiency by cutting total process completion time of up to 2 weeks down to minutes.
             </p>
-            <h1 class="page-header"></h1>
+            <hr/>
             <br>
             <h4>Legacy BPI Analysis</h4>
             <h2><i class="fa fa-random"></i></h2>
@@ -253,7 +300,7 @@
                 <br>
                 Mapped and analyzed current state workflows for legacy claims systems, identifying pain points and manual processes to be automated in the future state.
             </p>
-            <h1 class="page-header"></h1>
+            <hr/>
             <br>
             {{--<a href="#contact" class="btn btn-circle page-scroll">--}}
                 {{--<i class="fa fa-angle-double-down animated"></i>--}}
