@@ -269,6 +269,18 @@
             <hr/>
             <br>
 
+            <h4>Supply Store Website</h4>
+            <h2><i class="fa fa-smile-o"></i></h2>
+            <p>
+                <b>Client: Supply Store, University of Alabama</b>
+                <br>
+                2015
+                <br>
+                Provided front and back end development and debugged existing issues for the university supply store e-commerce site utilizing a 3rd party API for product inventory.
+            </p>
+            <hr/>
+            <br>
+
             <h4>Software Market Analysis</h4>
             <h2><i class="fa fa-line-chart"></i></h2>
             <p>
