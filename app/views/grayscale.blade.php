@@ -193,11 +193,11 @@
                 <br>
                 2014
                 <br>
-                First project utilizing a whole new stack of technolgies: Linux, Apache, Oracle, PHP/Laravel. Developed encrypted authentication and authorization web service for 3rd party vendor using CAS and AES to protect student information in accordance with FERPA standards. Designed and developed adminstrative user management interface. Enabled delivery of internet TV streaming services to campus stakeholders.
+                First project utilizing a whole new stack of technologies: Linux, Apache, Oracle, PHP/Laravel. Developed encrypted authentication and authorization web service for 3rd party vendor using CAS and AES to protect student information in accordance with FERPA standards. Designed and developed administrative user management interface. Enabled delivery of internet TV streaming services to campus stakeholders.
             </p>
             <hr/>
             <br>
-            <h4><a target="_blank" href="/public/images/immunizations.png">Immunization Automation</a></h4>
+            <h4><a target="_blank" href="images/immunizations.png">Immunization Automation</a></h4>
             <h2><i class="fa fa-heartbeat"></i></h2>
             <p>
                 <b>Client: Student Health Center, University of Alabama</b>
@@ -209,7 +209,7 @@
             <hr/>
             <br>
 
-            <h4>Admissions Algorithms</h4>
+            <h4>Admissions Algorithms and Administration</h4>
             <h2><i class="fa fa-calculator"></i></h2>
             <p>
                 <b>Client: College of Nursing, University of Alabama</b>
