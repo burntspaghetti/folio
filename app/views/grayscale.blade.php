@@ -270,7 +270,7 @@
             <br>
 
             <h4>Supply Store Website</h4>
-            <h2><i class="fa fa-smile-o"></i></h2>
+            <h2><i class="fa fa-cart-plus"></i></h2>
             <p>
                 <b>Client: Supply Store, University of Alabama</b>
                 <br>
