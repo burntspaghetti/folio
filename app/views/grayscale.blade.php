@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="http://www.modelstoglobe.com/ESW/Images/Earth_Globe.png">
-    <title>Spaceship Earth</title>
+    <title>Nick Bertanzetti</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="grayscale/css/bootstrap.min.css" rel="stylesheet">
@@ -103,18 +103,6 @@
     </div>
 </section>
 
-{{--<!-- Download Section -->--}}
-{{--<section id="download" class="content-section text-center">--}}
-    {{--<div class="download-section">--}}
-        {{--<div class="container">--}}
-            {{--<div class="col-lg-8 col-lg-offset-2">--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-{{--</section>--}}
-
-
-
 <section id="tech" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
@@ -123,13 +111,13 @@
             <h1><i class="fa fa-keyboard-o"></i></h1>
 
             <p>
-                <b>Languages: </b>PHP, C#, C++*, SQL, JavaScript, HTML, SASS/CSS
+                <b>Languages: </b>PHP, C#*, C++*, SQL, JavaScript, HTML, SASS/CSS
             </p>
             <p>
-                <b>Frameworks: </b>Laravel, ASP.NET MVC5, jQuery, Bootstrap
+                <b>Frameworks: </b>Laravel, ASP.NET MVC5*, jQuery, Bootstrap
             </p>
             <p>
-                <b>Databases: </b>Oracle, MySQL, Microsoft SQL Server
+                <b>Databases: </b>Oracle, MySQL, Microsoft SQL Server*
             </p>
             <p>
                 <b>Servers: </b>Apache, Nginx
@@ -138,10 +126,10 @@
                 <b>OS: </b>Linux (Ubuntu, OpenSUSE), Windows 7/8
             </p>
             <p>
-                <b>IDE: </b>PHP Storm, Visual Studio
+                <b>IDE: </b>PHP Storm, Visual Studio*
             </p>
             <p>
-                <b>Tools: </b>Git, JIRA, Vagrant, Bower, Composer, Sublime Text
+                <b>Tools: </b>Git, JIRA, Confluence, Vagrant
             </p>
             <p>
                 <b>Methodologies: </b>Agile Scrum, Waterfall
@@ -155,21 +143,6 @@
     </div>
 </section>
 
-{{--<section id="pic1" class="content-section text-center">--}}
-    {{--<div class="pic-section">--}}
-        {{--<div class="container">--}}
-            {{--<div class="col-lg-8 col-lg-offset-2">--}}
-                {{--<h1>test</h1>--}}
-                {{--<p>-Buckminster Fuller, <a href="http://en.wikipedia.org/wiki/Critical_Path_%28book%29" target="_blank">Critical Path</a>, 1981</p>--}}
-                {{--<a href="#about" class="btn btn-circle page-scroll">--}}
-                {{--<i class="fa fa-angle-double-down animated"></i>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-{{--</section>--}}
-
-
 <section id="projects" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
@@ -182,7 +155,7 @@
             <p>
                 2015
                 <br>
-                Designed and developed deep learning dashboard utilizing AlchemyAPI's Artificial Intelligence services to analyze trending sentiment on Twitter based on user search terms.
+                Designed and developed deep learning proof of concept utilizing AlchemyAPI's Artificial Intelligence services to analyze trending sentiment on Twitter based on user search terms.
             </p>
             <hr/>
             <br>
